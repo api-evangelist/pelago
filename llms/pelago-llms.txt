@@ -1,0 +1,27 @@
+# Pelago
+
+> Pelago is a virtual-first digital clinic for substance use disorder, delivering personalized treatment for tobacco, alcohol, opioid, cannabis, and stimulant use. It combines digital cognitive behavioral tools, live clinical counseling, and medication-assisted treatment (PelagoRX) with same-day nationwide access. Pelago sells primarily to employers and health plans as a covered behavioral-health benefit. Formerly Quit Genius; backed by Atomico and EQT Ventures. Pelago publishes a marketing and member-enrollment web presence but exposes no public developer API surface.
+
+## About
+- [Website](https://www.pelagohealth.com): Pelago corporate and member-facing site
+- [Blog](https://www.pelagohealth.com/blog/): Company and clinical research blog
+- [Pricing](https://www.pelagohealth.com/pricing/): Employer / health-plan program overview
+- [Get started](https://www.pelagohealth.com/get-started/): Member enrollment and sign-up
+- [Contact](https://www.pelagohealth.com/company/contact/): Support and contact
+- [Security](https://www.pelagohealth.com/security/): Security and healthcare-compliance posture
+
+## Compliance & Security
+- HITRUST, SOC-2, and LegitScript certified
+- HIPAA and 42 CFR Part 2 (confidentiality of substance-use-disorder records) aligned
+- GDPR and CCPA compliant
+- The Joint Commission Gold Seal of Approval
+- Encryption at rest and in transit; third-party penetration testing; segregated client data storage
+- See: security/pelago-trust-center.yml, conformance/pelago-conformance.yml, security/pelago-domain-security.yml
+
+## Legal
+- [Terms of Service](https://www.pelagohealth.com/terms/)
+- [Privacy Policy](https://www.pelagohealth.com/privacy/)
+
+## Notes
+- No public developer API, OpenAPI, SDK, MCP server, or webhook surface is published as of 2026-07-20.
+- This profile is an API Evangelist catalog entry capturing identity, web properties, and published security/compliance posture.

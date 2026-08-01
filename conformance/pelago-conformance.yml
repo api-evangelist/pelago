@@ -1,0 +1,33 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.pelagohealth.com/security/
+note: >-
+  Pelago is a digital substance-use-disorder clinic (B2B for employers and
+  health plans); it exposes no public developer API surface. These are the
+  healthcare compliance and security programs it publishes on its security page,
+  not API-protocol conformance derived from an OpenAPI.
+standards:
+- id: hitrust
+  conforms: true
+  evidence: HITRUST listed on security page
+- id: soc2
+  conforms: true
+  evidence: SOC 2 listed on security page
+- id: hipaa
+  conforms: true
+  evidence: HIPAA compliance stated on security page
+- id: 42-cfr-part-2
+  conforms: true
+  evidence: 42 CFR Part 2 (confidentiality of SUD records) stated on security page
+- id: gdpr
+  conforms: true
+  evidence: GDPR listed on security page
+- id: ccpa
+  conforms: true
+  evidence: CCPA listed on security page
+- id: legitscript
+  conforms: true
+  evidence: LegitScript certification listed on security page
+- id: joint-commission
+  conforms: true
+  evidence: The Joint Commission Gold Seal of Approval listed on security page

@@ -1,0 +1,30 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.pelagohealth.com/security/
+url: https://www.pelagohealth.com/security/
+certifications:
+- HITRUST
+- SOC 2
+- HIPAA
+- 42 CFR Part 2
+- CCPA
+- GDPR
+- LegitScript
+- The Joint Commission Gold Seal of Approval
+security_practices:
+- Industry standard encryption at rest and in transit
+- Cloud-based encrypted and segregated client data storage
+- Third-party penetration testing
+- Information security program audit
+evidence:
+- source: https://www.pelagohealth.com/security/
+  keywords:
+  - hitrust
+  - soc 2
+  - hipaa
+  - 42 cfr part 2
+  - gdpr
+  - ccpa
+  - legitscript
+  - joint commission

@@ -1,8 +1,29 @@
 aid: pelago
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pelago.png
 name: Pelago
-description: 'Pelago is a company surfaced as a portfolio company of atomico, eqt-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: health. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Pelago is a virtual-first digital clinic for substance use disorder,
+  delivering personalized treatment for tobacco, alcohol, opioid, cannabis, and
+  stimulant use. The platform combines digital cognitive behavioral tools, live
+  clinical counseling, and medication-assisted treatment (PelagoRX) with
+  same-day nationwide access. Pelago sells primarily to employers and health
+  plans as a covered behavioral-health benefit, and also serves adolescents and
+  members with co-occurring mental-health and chronic conditions. Formerly known
+  as Quit Genius, the company is backed by Atomico and EQT Ventures. It publishes
+  a public marketing and member-enrollment web presence but exposes no public
+  developer API surface; this profile captures its identity, web properties, and
+  published security/compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/pelago/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,18 @@ x-backed-by:
 - eqt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-former-name: Quit Genius
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Health
+- Digital Health
+- Behavioral Health
+- Substance Use Disorder
+- Telehealth
+- Healthcare
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.pelago.health
+  url: https://www.pelagohealth.com
+- type: Blog
+  url: https://www.pelagohealth.com/blog/
+- type: Pricing
+  url: https://www.pelagohealth.com/pricing/
+- type: SignUp
+  url: https://www.pelagohealth.com/get-started/
+- type: Support
+  url: https://www.pelagohealth.com/company/contact/
+- type: TermsOfService
+  url: https://www.pelagohealth.com/terms/
+- type: PrivacyPolicy
+  url: https://www.pelagohealth.com/privacy/
+- type: Compliance
+  url: conformance/pelago-conformance.yml
+- type: TrustCenter
+  url: security/pelago-trust-center.yml
+- type: DomainSecurity
+  url: security/pelago-domain-security.yml
+- type: LLMsTxt
+  url: llms/pelago-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
